@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <p>Initiall App Structure</p>
-      <HomePage />
+      <HomePage applyStyle={false} />
       <AboutPage />
       <CourseListPage />
     </div>
