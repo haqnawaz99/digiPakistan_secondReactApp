@@ -1,10 +1,10 @@
-import react, { Component } from "react";
-import "./cssStyle.css";
+import { Component } from "react";
+//import "./cssStyle.css";
 
 class HomePage extends Component {
   render() {
     const style = this.props.applyStyle ? "textStyle" : "";
-    return <p className={"${style} textSize"}> Home Page </p>;
+    return <p className={" ${style} textSize"}> Home Page </p>;
   }
 }
 

@@ -1,3 +1,17 @@
+import { useLocation, useParams } from "react-router";
+
+const CourseListPage = () => {
+  const { courseid } = useParams();
+  const location = useLocation();
+  return (
+    <>
+      <p>Course list</p>
+    </>
+  );
+};
+export default CourseListPage;
+
+/*Class base
 import react, { Component } from "react";
 import style from "./cssStyleModule.module.css";
 
@@ -8,3 +22,4 @@ class CourseListPage extends Component {
 }
 
 export default CourseListPage;
+*/
